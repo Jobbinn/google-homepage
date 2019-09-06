@@ -1,0 +1,26 @@
+body {
+    font-family:'Liberation sans'; 
+}
+
+.menu-left, .menu-right {
+  padding: 30px;
+  display: inline-block;
+
+}
+
+
+.menu-right {
+float: right;
+}
+
+
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.footer-right {
+    float: bottom;
+}
