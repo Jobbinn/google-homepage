@@ -2,7 +2,7 @@ Trying to make the search bar wider,
 I tried applying to the classes, search, search-bar and input also input[type=text, I also tried to make a special class inside the <input>.
 Then I made an id inside the <input>
 
-was applying width: xx%;
+was applying width: xx%; or px
 
 nothing works.
 maybe there is something applied to the parent element
@@ -15,3 +15,31 @@ tried adding a class, then an id, to both the new form and the old. did not work
 I think perhaps the problem lies in the declaration, not selector.
 
 
+the internet says it should be as simple as
+
+ input {
+  width: 100%;
+}
+
+finally fixed it, with 
+
+#desperation {
+    display: flex;
+    width: 200%;
+    position: relative;
+    right: 50%;
+}
+
+Now I am trying to seperate the two buttons below the search bar
+Tried giving them seperate class, even id's and give them their own margins
+why does it treat it like one element?
+because they are the parents of the <div class="search-buttons">
+I am guessing.
+
+try disabling all css rules applied to that class, and see
+if you can work them as 2 elements of one class.
+
+
+seems to work strangely though.
+
+Now I will attempt to fix the footer.
