@@ -1,0 +1,17 @@
+Trying to make the search bar wider,
+I tried applying to the classes, search, search-bar and input also input[type=text, I also tried to make a special class inside the <input>.
+Then I made an id inside the <input>
+
+was applying width: xx%;
+
+nothing works.
+maybe there is something applied to the parent element
+that causes this fuckery?
+
+tried to make another form, outside of the divs, nothing works here either.
+
+tried adding a class, then an id, to both the new form and the old. did not work.
+
+I think perhaps the problem lies in the declaration, not selector.
+
+

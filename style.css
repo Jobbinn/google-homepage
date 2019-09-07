@@ -10,6 +10,8 @@ body {
 
 #sign-in {
 font-weight: 900;
+padding:30px;
+background-color: 
 }
 
 
@@ -21,18 +23,35 @@ float: right;
 }
 
 .search {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+    
+
+
+.header1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
-    
+    width: 300px;
+    clear: right;
+    position: relative;
+    top: 150px;
+  }
+
+#desperation {
+    display: flex;
+    width: 250%;
+    position: relative;
+    right: 50%;
+    padding: 15px;
+    border-radius: 30px;
 }
 
-.header1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px%;
+#this {
+    width: 100%;
 }
 
 footer {
