@@ -1,5 +1,6 @@
 body {
     font-family:'Liberation sans'; 
+    font-size: 0.8em;
 }
 
 .menu-left, .menu-right {
@@ -40,6 +41,7 @@ float: right;
     
 .search-buttons {
     margin: 40px;
+    font-size: 1.2em;
 }
 
 .button {
@@ -48,6 +50,7 @@ float: right;
     padding: 15px;
     margin: 5px;
     border-radius: 4px;
+    
 
 }
 
@@ -71,26 +74,41 @@ float: right;
     border-radius: 30px;
 }
 
-footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #f2f2f2;
+    height: 4rem; 
+    word-spacing: px;
   }
 
-  .lfooter-item, .rfooter-item {
-      padding:15px;
+  .about {
+        padding:15px;
+        position: relative;
+        top: 10px;
   }
 
-  p {
+  .location {
+      display: block;
+      width: 100%;
       position: relative;
-      left: 14px;
-      top: 20px;
+      left: 30px;
+      top: 13px;
+      
+      
+  }
+  .lfooter-item, .rfooter-item {
+      display: block;
+      padding-right: 10px;
+      padding-left: 10px;
+
   }
 
   .lfooter-item {
       float: left;
-      
+      position: relative;
+      left: 5px;
   }
   .rfooter-item {
       float: right;
