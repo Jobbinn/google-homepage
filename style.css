@@ -3,17 +3,22 @@ body {
 }
 
 .menu-left, .menu-right {
-  padding: 30px;
+  padding: 20px;
   display: inline-block;
 
 }
 
 #sign-in {
 font-weight: 900;
-padding:30px;
-background-color: 
+padding:15px;
+background-color: #4386f8; 
+color: white;
 }
 
+.menu-left a, .menu-right a,footer a, .search a {
+color: black;
+text-decoration:none;
+}
 
 .menu-item {
     padding: 10px;
@@ -39,13 +44,14 @@ float: right;
     clear: right;
     position: relative;
     top: 150px;
+
   }
 
 #desperation {
     display: flex;
     width: 250%;
     position: relative;
-    right: 50%;
+    right: 80%;
     padding: 15px;
     border-radius: 30px;
 }
